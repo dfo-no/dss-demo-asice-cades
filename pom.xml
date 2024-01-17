@@ -14,7 +14,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<dss.version>5.13.RC1</dss.version>
 		<slf4j.version>1.7.25</slf4j.version>
-		<logback-classic.version>1.2.3</logback-classic.version>
+		<logback-classic.version>1.2.13</logback-classic.version>
 	</properties>
 
 	<dependencies>
