@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardBusinessDocumentHeader>
+	<HeaderVersion>1.0</HeaderVersion>
+	<Sender>
+		<Identifier Authority="iso6523-actorid-upis">0192:986252932</Identifier>
+	</Sender>
+	<Receiver>
+		<Identifier Authority="iso6523-actorid-upis">0192:984851006</Identifier>
+	</Receiver>
+	<DocumentIdentification>
+		<Standard>urn:iso:std:iso:20022:tech:xsd:pain.001.001.03</Standard>
+		<TypeVersion>03</TypeVersion>
+		<InstanceIdentifier>FS~DBFSA2310171~2168</InstanceIdentifier>
+		<Type>Document</Type>
+		<CreationDateAndTime>2023-10-17T13:10:30Z</CreationDateAndTime>
+	</DocumentIdentification>
+	<BusinessScope>
+		<Scope>
+			<Type>DOCUMENTID</Type>
+			<InstanceIdentifier>urn:iso:std:iso:20022:tech:xsd:pain.001.001.03::Document##urn:fdc:bits.no:2017:iso20022:1.5::03</InstanceIdentifier>
+		</Scope>
+		<Scope>
+			<Type>PROCESSID</Type>
+			<InstanceIdentifier>urn:fdc:bits.no:2017:profile:01:1.0</InstanceIdentifier>
+		</Scope>
+	</BusinessScope>
+</StandardBusinessDocumentHeader>

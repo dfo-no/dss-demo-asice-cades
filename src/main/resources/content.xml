@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+	<CstmrCdtTrfInitn>
+		<!-- UBW_ISO_P1_DFO5_08JUNI2023_V01 -->
+		<GrpHdr>
+			<MsgId>DBFSA2310171</MsgId>
+			<CreDtTm>2023-10-17T15:10:29</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>500.00</CtrlSum>
+			<InitgPty>
+				<Nm>TEST (FS - DFØ)</Nm>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>00986252932</Id>
+							<SchmeNm>
+								<Cd>CUST</Cd>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>XML</Id>
+							<SchmeNm>
+								<Cd>BANK</Cd>
+							</SchmeNm>
+						</Othr>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>UBW20231019IP_NOKNOK231017240001</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<BtchBookg>true</BtchBookg>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>NURG</Cd>
+				</SvcLvl>
+				<CtgyPurp>
+					<Cd>SUPP</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<ReqdExctnDt>2023-10-19</ReqdExctnDt>
+			<Dbtr>
+				<Nm>TEST (FS - DFØ)</Nm>
+				<PstlAdr>
+					<Ctry>NO</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>NO6776940564898</IBAN>
+				</Id>
+				<Ccy>NOK</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>DNBANOKKXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<ChrgBr>SHAR</ChrgBr>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>AFS2310172400001</InstrId>
+					<EndToEndId>AFS2310172400001</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="NOK">500.00</InstdAmt>
+				</Amt>
+				<Cdtr>
+					<Nm>TUNET AS</Nm>
+					<PstlAdr>
+						<StrtNm>STORGATEN 68</StrtNm>
+						<PstCd>2406</PstCd>
+						<TwnNm>ELVERUM</TwnNm>
+						<Ctry>NO</Ctry>
+					</PstlAdr>
+				</Cdtr>
+				<RmtInf>
+					<Ustrd>123 UTEN BANKKONTONUMMER</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
